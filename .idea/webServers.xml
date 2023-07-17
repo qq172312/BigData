@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="95a19d43-74d9-41e3-9b95-3fa8004cd403" name="hadoop101">
+        <fileTransfer accessType="SFTP" host="hadoop101" port="22" sshConfigId="97467ee0-b262-4398-9d72-a8842a0cd5e5" sshConfig="root@hadoop101:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e041b272-8316-4966-9fb0-c10088a13760" name="alhadoop101">
+        <fileTransfer accessType="SFTP" host="alhadoop101" port="22" sshConfigId="1a7a2602-a79f-4902-8c25-69ee5186e1d9" sshConfig="alhadoop101">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

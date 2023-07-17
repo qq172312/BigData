@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/DianShang/ads.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/DianShang/dim.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/DianShang/dwd.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/DianShang/dwd_test.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/DianShang/dws.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/DianShang/ods.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/Test/03_DataType.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/Test/04_sort.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/Test/05_window.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/Test/06_partition.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/Test/07_Buck.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/Test/08_compress.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/Test/09_TextFile.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/Test/10_Explain.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/Test/11_SourceOptimize.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/Test/12_Join_optimize.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/Test/13_DataIncline.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/Test/14_MapReduceTask.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/Test/15_SmallFile.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/Test/16_Orther_Optimize.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/Test/UserDifinedFunction.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/alishizhan/ads_all.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/alishizhan/dim.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/alishizhan/dwd.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/alishizhan/dwd_03.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/alishizhan/dws.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/alishizhan/ods_al.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/hadoop101_test/test01.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/work/sql_01.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/work/sql_02.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/work/sql_03.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/work/sqldata_01.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/work/sqldata_02.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/work/sqldata_03.hql" dialect="HiveQL" />
+    <file url="file://$PROJECT_DIR$/work/web_sql.hql" dialect="HiveQL" />
+  </component>
+</project>
