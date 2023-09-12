@@ -22,19 +22,29 @@
       <jdbc-url>jdbc:mysql://hadoop101:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="alhadoop101" uuid="a2ead781-50bd-48ae-b434-31062bf10b58">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://alhadoop101:3306</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="@alhadoop101" uuid="ae66c375-2458-40e3-a0ab-b46bc79d7096">
       <driver-ref>hive</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
       <jdbc-url>jdbc:hive2://alhadoop101:10000</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@zlhadoop102" uuid="acd7fff2-9839-42c9-8e8c-0ffe50d9b6e4">
+      <driver-ref>hive</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
+      <jdbc-url>jdbc:hive2://zlhadoop102:10000</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@hadoop101" uuid="e2f4760a-554d-43ed-bbc0-e967375a7a4b">
+      <driver-ref>hive</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
+      <jdbc-url>jdbc:hive2://hadoop101:10000</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="user" />
+      </driver-properties>
     </data-source>
   </component>
 </project>
